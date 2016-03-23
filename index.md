@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Titre de m1ls"
+title: "Langage de spécification : B"
 ---
-Titre de m1ls
+Langage de spécification : B
 ===============
 
+- [Transparents du cours](ext/cours.pdf)
 
 {% for post in site.posts reversed %}
 
