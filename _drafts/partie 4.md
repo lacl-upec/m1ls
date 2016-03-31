@@ -4,7 +4,9 @@ TP de langage de spécification
 Partie 4
 --------
 
-Dans la machine déclarée à la partie 2, écrire les opérations suivantes. Chacune retournera un booléen égal à TRUE si l'opération à été possible et FALSE sinon.
+Dans la machine B déclarée à la partie 1, ajouter les opérations suivantes :
 
-- `placeCoursApres` qui choisit des créneaux pour un cours placé à un créneau situé après un autre
-- `forceCoursApres` qui choisit des créneaux pour un cours placé à un créneau situé après un autre quitte à déplacer le premier
+- `multiSet` qui prend une liste d'entiers et retourne le multi-ensemble des éléments sous la forme d'une fonction partielle qui à un élément associe le nombre (non-nul) d'occurrences de cet élément dans le multi-ensemble. On pourra utiliser *ℕ₁* (`NATURAL1`) pour indiquer un entier non nul.
+- `tri` qui prend une liste et la retourne triée.
+- `decomp` qui prend un entier et retourne un objet mathématique représentant la décomposition en facteurs premiers de cet entier.
+
